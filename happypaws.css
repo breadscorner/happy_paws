@@ -1,0 +1,150 @@
+/* background */
+body {
+  background-image: url("Purple Stars Background.jpg");
+  color: white;
+}
+
+/* header */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;;
+  position: sticky;
+}
+
+#logo1 {
+  width:20%;
+  height: auto;
+}
+
+#logo3 {
+  width: 20%;
+  height: auto;
+  float: right;
+}
+
+/* navigation */
+#headernav {
+  display: inline;
+  padding: 10px;
+  text-align: center;
+  word-spacing: 10px;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav {
+  color: #FFD700;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav:hover {
+  color: white;
+}
+
+.nav:active {
+  color: blueviolet;
+}
+
+#headernav> ul> li {
+  display: inline;
+}
+
+#company {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 5em;
+}
+
+/* #colours { */
+/* use colour as background with info about and hex code etc. on the colour */
+/* show colour chart */
+/* } */
+
+/* #imagestyle {
+
+}
+
+#typography {
+
+} */
+
+/* headings
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+/* header sizes displayed */
+/* #h1f1 {
+
+} */
+
+/* #h1f2 {
+
+} */
+
+/* #h2f1 {
+
+} */
+
+/* #h2f2 {
+
+} */
+
+/* #h3f1 {
+
+} */
+
+/* #h3f2 {
+
+} */
+
+/* #h4f1 {
+
+} */
+
+/* #h4f2 {
+
+} */
+
+/* #h5f1 {
+
+} */
+
+/* #h5f2 {
+
+} */
+
+/* #h6f1 {
+
+} */
+
+/* #h6f2 {
+
+} */
+
+/* links */
+
+/* footer */
